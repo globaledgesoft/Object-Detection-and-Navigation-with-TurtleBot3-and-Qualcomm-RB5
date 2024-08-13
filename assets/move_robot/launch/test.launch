@@ -1,0 +1,4 @@
+</launch>
+    <node pkg="move_robot" type="Test.py"
+    name="mov_rb5" output="screen"/>
+</launch>

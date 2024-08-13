@@ -1,0 +1,3 @@
+<launch>
+    <node name="whisper_speech_recognize" pkg="whisper_pkg" type="whisper_speech_recognize.py" output="screen"/>
+</launch>

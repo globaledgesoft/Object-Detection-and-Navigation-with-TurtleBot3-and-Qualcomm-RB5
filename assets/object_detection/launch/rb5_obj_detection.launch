@@ -1,0 +1,14 @@
+<launch>
+	
+    <!-- Image source (Camera) -->
+	<node name="camera" pkg="usb_cam" type="usb_cam_node" output="screen">
+    	<param name="video_device" value="/dev/video0" />
+    	<param name="image_width" value="640" />
+    	<param name="image_height" value="480" />
+    	<param name="pixel_format" value="yuyv"/>
+  	</node>
+   <node pkg="object_detection" type="rb5_object_detection.py" name="Inference_node1" output="screen"/>
+   
+</launch>
+	
+	

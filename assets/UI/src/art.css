@@ -1,0 +1,97 @@
+.teleop-card {
+    margin-bottom: 20px;
+    background-color: #f8f9fa; /* Light background color for cards */
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Light shadow for cards */
+  }
+  
+  .teleop-header {
+    font-size: 24px;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  
+  .directional-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .directional-buttons > div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 10px 20px; /* Adjust this margin to create the desired gap */
+  }
+  
+  .direction-button {
+    margin: 5px; /* Adjust this margin to create the desired gap */
+    padding: 10px 15px;
+    font-size: 24px;
+    color: #ffffff;
+    background-color: #6c757d; /* Dark background for the buttons */
+    border-color: #6c757d; /* Dark border for the buttons */
+  }
+  
+  .direction-button:focus, .direction-button:hover {
+    background-color: #6c757d; /* Slightly lighter on hover */
+    border-color: #6c757d; /* Border color on hover */
+  }
+  
+  .teleop-features {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .feature-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .feature-details {
+    display: flex;
+  }
+  
+  .feature-group {
+    margin-right: 20px;
+  }
+  
+  .feature {
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  
+  .same-size-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  /* Additional styles for the features cards */
+  .teleop-features .teleop-card {
+    background-color: #6c757d; /* Dark background for the feature cards */
+    color: #ffffff; /* White text color for the feature cards */
+    border: 1px solid #6c757d; /* Dark border for the feature cards */
+  }
+  
+  .teleop-features .feature-title {
+    color: #ffffff; /* White text color for the feature title */
+  }
+  
+  .teleop-features .feature {
+    color: #e9ecef; /* Lighter text color for the feature details */
+  }
+  
+  /* Add styles for buttons on the cards */
+  .teleop-card .btn {
+    background-color: #6c757d; /* Dark background for buttons */
+    color: #ffffff; /* White text color for buttons */
+  }
+  
+  .teleop-card .btn:hover, .teleop-card .btn:focus {
+    background-color: #6c757d; /* Slightly lighter background color on hover */
+    border-color: #6c757d; /* Border color on hover */
+  }
+  
